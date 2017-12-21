@@ -1,0 +1,24 @@
+en:
+  billing:
+    invoices:
+      show:
+        bank_boleto: "Boleto bancário"
+        credit_card: "Credit card"
+        pay_with_credit_card: "Pay with Credit card"
+        pay_with_: "Pay with %{method}"
+        due: "Due date"
+        errors_any: "Problemas para prosseguir com o pagamento. Por favor, entre em contato com nosso suporte."
+        installment_group_info: "Parcela %{installment_number} de %{installment_size}"
+        invoice_detail: "Ver detalhes da cobrança"
+        invoice_id: "Invoice #%{public_id}"
+        original_due: "Vencimento original"
+        other_methods: "Others Methods"
+        payed: "A sua cobrança já está paga. Obrigado!"
+        renegotiated_due_for: "Vencimento renegociado para"
+        success: "Pagamento realizado com sucesso. Obrigado!"
+        title: "Invoice %{public_id} | %{account_name}"
+        please_contact_our_financial_to_payment_html: "Please contact <a href='mailto:%{financial_email}'>%{financial_email}</a> to make this payment."
+        errors:
+          error: "Problemas para prosseguir com o pagamento! Por favor, entre em contato com o suporte."
+          cancel: "Pagamento cancelado. Caso esteja enfrentando problemas, entre em contato com o suporte."
+          generate_billing_document: "Problemas para gerar com %{payment_method}. Por favor, entre em contato com nosso suporte."
