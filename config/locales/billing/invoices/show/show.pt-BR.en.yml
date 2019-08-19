@@ -1,0 +1,24 @@
+en-US:
+  billing:
+    invoices:
+      show:
+        bank_boleto: "Bank slip"
+        credit_card: "Credit card"
+        pay_with_credit_card: "Pay with card"
+        pay_with_: "Pay with %{method}"
+        due: "Expiration"
+        errors_any: "Problems to proceed with the payment. Please contact our support."
+        installment_group_info: "Installment %{installment_number} of %{installment_size}"
+        invoice_detail: "See collection details"
+        invoice_id: "Collection #%{public_id}"
+        original_due: "Original expiration"
+        other_methods: "Other methods"
+        payed: "Your billing is already paid. Thank you!"
+        renegotiated_due_for: "Edxpiration renegotiated for"
+        success: "Successful payment. Thank you!"
+        title: "Collection %{public_id} | %{account_name}"
+        please_contact_our_financial_to_payment_html: "Please contact <a href='mailto:%{financial_email}'>%{financial_email}</a> to make this payment."
+        errors:
+          error: "Problems to proceed with the payment. Please contact our support."
+          cancel: "Payment canceled. If you are experiencing problems, contact support."
+          generate_billing_document: "Problems to generate with %{payment_method}. Please contact our support."
